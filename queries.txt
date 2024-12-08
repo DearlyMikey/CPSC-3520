@@ -1,0 +1,12 @@
+# Exercise 3
+sibling(alice,Y).
+cousin(jake, Y).
+grandparent(X,peter).
+uncle(X,emma).
+ancestor(robert,amy).
+aunt(X,peter).
+ancestor(robert, Y).
+findall(X, (parent(X, _), grandparent(X, _)), People), sort(People, UniquePeople).
+bigger_brother(B,emma).
+older_sibling(nancy,tom) -> Older = nancy ; Older = tom.
+
